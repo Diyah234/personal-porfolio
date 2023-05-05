@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./images.js" defer></script>
+    <script src="./mobile.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="">Rodiyyah</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#news">About</a>
+            <a href="#contact">Blog</a>
+            <a href="#about">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </header>
+    <div class="about" id="about">
+      <div class="myself-ctn">
+    <h1 class="title">Hi, I'm <span class="text">Rodiyyah</span><span class="emoji">👋</span></h1>
+    <p>I am a Fullstack Web Developer</p></div>
+    <img src="./assets/piccccc.jpg" class="my-picture"></div>
+    <section class="overview">
+        <h6>INTRODUCTION</h6>
+        <h1>Overview</h1>
+        <div class="ctn">
+        <p>I have one year of experience in learning HTML, CSS, and Javascript, and I am currently a full stack developer. 
+            Additionally, I have received certification as a frontend developer from both Zuri Training and FreeCodeCamp.
+             I am also a Nigerian student in my 200-level at Adeleke University, where I am studying Computer Information Systems.
+        </p></div>
+    </section>
+    <section class="skill">
+        <h1>Skills</h1>
+        <div class="skill-ctn">
+        <p>While I am a beginner in JavaScript, I am highly skilled in HTML and CSS.
+             I possess the ability to create mobile-responsive websites and showcase various tricks using animations.</p></div>
+        <div class="languages">
+            <h3>HTML</h3><br/>
+            <div class="level">100%</div>
+            <h3>CSS</h3><br/>
+            <div class="level">80%<div class="level1"></div></div><div class="level2"></div>
+            <h3>JAVASCRIPT</h3><br/>
+            <div class="level"><p>40%</p><div class="level1c"></div></div><div class="level4"></div>
+         </section>
+    <section class="work" id="project">
+        <h6>MY WORK</h6>
+        <h1>Projects</h1>
+           <div class="button" data-aos="fade-up"
+           data-aos-anchor-placement="center-center">
+            <img src="./assets/left-arrow-alt-regular-24.png" onclick="prev()">
+            <img src="./assets/right-arrow-alt-regular-24.png" onclick="next()"></div>
+            <div class="images">
+                <a href=""><img src="./assets/b.png" id="slider"></a>
+            </div>
+    </section>
+    <section class="contact" id="contact">
+    <center><h6>GET IN TOUCH</h6>
+     <h1>Contact Me</h1></center>
+     <form action="" class="option">
+        <label>Name<br/>
+            <input type="text" placeholder="Your fullname">
+        </label><br/>
+        <label>Email<br/>
+            <input type="email" placeholder="Your email">
+        </label><br/>
+        <label>Send a Message<br/>
+            <textarea cols="30" rows="5" placeholder="Your message"></textarea>
+        </label><br/>
+        <button type="submit" class="submit">Send</button>
+    </form>
+    </section>
+    <footer>
+        <a href=""><img src="./assets/instagram.png"></a>
+       <a href=""> <img src="./assets/snapchat.png"></a>
+        <a href=""><img src="./assets/github(1).png"></a>
+        <a href=""><img src="./assets/linkedin.png"></a>
+        <a href=""><img src="./assets/twitter.png"></a>
+    </footer>
+</body>
+</html>
